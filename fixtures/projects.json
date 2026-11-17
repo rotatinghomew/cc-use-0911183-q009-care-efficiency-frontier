@@ -1,0 +1,24 @@
+[
+  {
+    "id": "unit_east",
+    "site": "east",
+    "fixed_cents": 1000000,
+    "resource_need": {
+      "specialist_hours": 30,
+      "care_hours": 100
+    },
+    "coverage_gain": 12,
+    "requires_skill": "bathing"
+  },
+  {
+    "id": "unit_west",
+    "site": "west",
+    "fixed_cents": 800000,
+    "resource_need": {
+      "specialist_hours": 35,
+      "care_hours": 80
+    },
+    "coverage_gain": 10,
+    "requires_skill": "basic"
+  }
+]

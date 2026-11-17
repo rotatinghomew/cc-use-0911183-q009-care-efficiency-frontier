@@ -1,0 +1,17 @@
+[
+  {
+    "id": "east",
+    "service_scope": "residential",
+    "care_group": "mixed"
+  },
+  {
+    "id": "west",
+    "service_scope": "residential",
+    "care_group": "mixed"
+  },
+  {
+    "id": "day",
+    "service_scope": "daycare",
+    "care_group": "light"
+  }
+]

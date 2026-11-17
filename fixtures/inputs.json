@@ -1,0 +1,23 @@
+[
+  {
+    "id": "i1",
+    "site": "east",
+    "month": "2026-10",
+    "resource": "care_hours",
+    "amount": 2000
+  },
+  {
+    "id": "i2",
+    "site": "west",
+    "month": "2026-10",
+    "resource": "care_hours",
+    "amount": 1800
+  },
+  {
+    "id": "i3",
+    "site": "day",
+    "month": "2026-10",
+    "resource": "care_hours",
+    "amount": 600
+  }
+]

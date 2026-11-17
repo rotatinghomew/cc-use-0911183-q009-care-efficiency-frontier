@@ -1,0 +1,1830 @@
+{
+  "sites": [
+    {
+      "id": "unit0",
+      "service_scope": "daycare",
+      "care_group": "light"
+    },
+    {
+      "id": "unit1",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit2",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit3",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit4",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit5",
+      "service_scope": "daycare",
+      "care_group": "light"
+    },
+    {
+      "id": "unit6",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit7",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit8",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit9",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit10",
+      "service_scope": "daycare",
+      "care_group": "light"
+    },
+    {
+      "id": "unit11",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit12",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit13",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    },
+    {
+      "id": "unit14",
+      "service_scope": "residential",
+      "care_group": "mixed"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "input0-5",
+      "site": "unit0",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 880
+    },
+    {
+      "id": "input0-6",
+      "site": "unit0",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 873
+    },
+    {
+      "id": "input0-7",
+      "site": "unit0",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 836
+    },
+    {
+      "id": "input0-8",
+      "site": "unit0",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 825
+    },
+    {
+      "id": "input0-9",
+      "site": "unit0",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 830
+    },
+    {
+      "id": "input0-10",
+      "site": "unit0",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 850
+    },
+    {
+      "id": "input1-5",
+      "site": "unit1",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 906
+    },
+    {
+      "id": "input1-6",
+      "site": "unit1",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 944
+    },
+    {
+      "id": "input1-7",
+      "site": "unit1",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 951
+    },
+    {
+      "id": "input1-8",
+      "site": "unit1",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 934
+    },
+    {
+      "id": "input1-9",
+      "site": "unit1",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 937
+    },
+    {
+      "id": "input1-10",
+      "site": "unit1",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 972
+    },
+    {
+      "id": "input2-5",
+      "site": "unit2",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1075
+    },
+    {
+      "id": "input2-6",
+      "site": "unit2",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1010
+    },
+    {
+      "id": "input2-7",
+      "site": "unit2",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1078
+    },
+    {
+      "id": "input2-8",
+      "site": "unit2",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1015
+    },
+    {
+      "id": "input2-9",
+      "site": "unit2",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1032
+    },
+    {
+      "id": "input2-10",
+      "site": "unit2",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1027
+    },
+    {
+      "id": "input3-5",
+      "site": "unit3",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1147
+    },
+    {
+      "id": "input3-6",
+      "site": "unit3",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1130
+    },
+    {
+      "id": "input3-7",
+      "site": "unit3",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1148
+    },
+    {
+      "id": "input3-8",
+      "site": "unit3",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1134
+    },
+    {
+      "id": "input3-9",
+      "site": "unit3",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1138
+    },
+    {
+      "id": "input3-10",
+      "site": "unit3",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1172
+    },
+    {
+      "id": "input4-5",
+      "site": "unit4",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1250
+    },
+    {
+      "id": "input4-6",
+      "site": "unit4",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1234
+    },
+    {
+      "id": "input4-7",
+      "site": "unit4",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1221
+    },
+    {
+      "id": "input4-8",
+      "site": "unit4",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1240
+    },
+    {
+      "id": "input4-9",
+      "site": "unit4",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1251
+    },
+    {
+      "id": "input4-10",
+      "site": "unit4",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1222
+    },
+    {
+      "id": "input5-5",
+      "site": "unit5",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1321
+    },
+    {
+      "id": "input5-6",
+      "site": "unit5",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1342
+    },
+    {
+      "id": "input5-7",
+      "site": "unit5",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1351
+    },
+    {
+      "id": "input5-8",
+      "site": "unit5",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1303
+    },
+    {
+      "id": "input5-9",
+      "site": "unit5",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1377
+    },
+    {
+      "id": "input5-10",
+      "site": "unit5",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1342
+    },
+    {
+      "id": "input6-5",
+      "site": "unit6",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1435
+    },
+    {
+      "id": "input6-6",
+      "site": "unit6",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1454
+    },
+    {
+      "id": "input6-7",
+      "site": "unit6",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1415
+    },
+    {
+      "id": "input6-8",
+      "site": "unit6",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1474
+    },
+    {
+      "id": "input6-9",
+      "site": "unit6",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1464
+    },
+    {
+      "id": "input6-10",
+      "site": "unit6",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1401
+    },
+    {
+      "id": "input7-5",
+      "site": "unit7",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1549
+    },
+    {
+      "id": "input7-6",
+      "site": "unit7",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1564
+    },
+    {
+      "id": "input7-7",
+      "site": "unit7",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1527
+    },
+    {
+      "id": "input7-8",
+      "site": "unit7",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1557
+    },
+    {
+      "id": "input7-9",
+      "site": "unit7",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1542
+    },
+    {
+      "id": "input7-10",
+      "site": "unit7",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1505
+    },
+    {
+      "id": "input8-5",
+      "site": "unit8",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1659
+    },
+    {
+      "id": "input8-6",
+      "site": "unit8",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1656
+    },
+    {
+      "id": "input8-7",
+      "site": "unit8",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1646
+    },
+    {
+      "id": "input8-8",
+      "site": "unit8",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1602
+    },
+    {
+      "id": "input8-9",
+      "site": "unit8",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1600
+    },
+    {
+      "id": "input8-10",
+      "site": "unit8",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1601
+    },
+    {
+      "id": "input9-5",
+      "site": "unit9",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1761
+    },
+    {
+      "id": "input9-6",
+      "site": "unit9",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1730
+    },
+    {
+      "id": "input9-7",
+      "site": "unit9",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1779
+    },
+    {
+      "id": "input9-8",
+      "site": "unit9",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1743
+    },
+    {
+      "id": "input9-9",
+      "site": "unit9",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1745
+    },
+    {
+      "id": "input9-10",
+      "site": "unit9",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1730
+    },
+    {
+      "id": "input10-5",
+      "site": "unit10",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1871
+    },
+    {
+      "id": "input10-6",
+      "site": "unit10",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1825
+    },
+    {
+      "id": "input10-7",
+      "site": "unit10",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1812
+    },
+    {
+      "id": "input10-8",
+      "site": "unit10",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1840
+    },
+    {
+      "id": "input10-9",
+      "site": "unit10",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1815
+    },
+    {
+      "id": "input10-10",
+      "site": "unit10",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1875
+    },
+    {
+      "id": "input11-5",
+      "site": "unit11",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 1973
+    },
+    {
+      "id": "input11-6",
+      "site": "unit11",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 1930
+    },
+    {
+      "id": "input11-7",
+      "site": "unit11",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 1905
+    },
+    {
+      "id": "input11-8",
+      "site": "unit11",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 1934
+    },
+    {
+      "id": "input11-9",
+      "site": "unit11",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 1938
+    },
+    {
+      "id": "input11-10",
+      "site": "unit11",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 1959
+    },
+    {
+      "id": "input12-5",
+      "site": "unit12",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 2011
+    },
+    {
+      "id": "input12-6",
+      "site": "unit12",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 2016
+    },
+    {
+      "id": "input12-7",
+      "site": "unit12",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 2000
+    },
+    {
+      "id": "input12-8",
+      "site": "unit12",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 2067
+    },
+    {
+      "id": "input12-9",
+      "site": "unit12",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 2019
+    },
+    {
+      "id": "input12-10",
+      "site": "unit12",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 2021
+    },
+    {
+      "id": "input13-5",
+      "site": "unit13",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 2174
+    },
+    {
+      "id": "input13-6",
+      "site": "unit13",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 2143
+    },
+    {
+      "id": "input13-7",
+      "site": "unit13",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 2171
+    },
+    {
+      "id": "input13-8",
+      "site": "unit13",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 2112
+    },
+    {
+      "id": "input13-9",
+      "site": "unit13",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 2180
+    },
+    {
+      "id": "input13-10",
+      "site": "unit13",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 2167
+    },
+    {
+      "id": "input14-5",
+      "site": "unit14",
+      "month": "2026-05",
+      "resource": "care_hours",
+      "amount": 2201
+    },
+    {
+      "id": "input14-6",
+      "site": "unit14",
+      "month": "2026-06",
+      "resource": "care_hours",
+      "amount": 2266
+    },
+    {
+      "id": "input14-7",
+      "site": "unit14",
+      "month": "2026-07",
+      "resource": "care_hours",
+      "amount": 2272
+    },
+    {
+      "id": "input14-8",
+      "site": "unit14",
+      "month": "2026-08",
+      "resource": "care_hours",
+      "amount": 2238
+    },
+    {
+      "id": "input14-9",
+      "site": "unit14",
+      "month": "2026-09",
+      "resource": "care_hours",
+      "amount": 2226
+    },
+    {
+      "id": "input14-10",
+      "site": "unit14",
+      "month": "2026-10",
+      "resource": "care_hours",
+      "amount": 2227
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "outcome0-5",
+      "site": "unit0",
+      "month": "2026-05",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.5
+    },
+    {
+      "id": "outcome0-6",
+      "site": "unit0",
+      "month": "2026-06",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.77
+    },
+    {
+      "id": "outcome0-7",
+      "site": "unit0",
+      "month": "2026-07",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 4.47
+    },
+    {
+      "id": "outcome0-8",
+      "site": "unit0",
+      "month": "2026-08",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.9
+    },
+    {
+      "id": "outcome0-9",
+      "site": "unit0",
+      "month": "2026-09",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.96
+    },
+    {
+      "id": "outcome0-10",
+      "site": "unit0",
+      "month": "2026-10",
+      "covered": 50,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 4.35
+    },
+    {
+      "id": "outcome1-5",
+      "site": "unit1",
+      "month": "2026-05",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.98
+    },
+    {
+      "id": "outcome1-6",
+      "site": "unit1",
+      "month": "2026-06",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.18
+    },
+    {
+      "id": "outcome1-7",
+      "site": "unit1",
+      "month": "2026-07",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.52
+    },
+    {
+      "id": "outcome1-8",
+      "site": "unit1",
+      "month": "2026-08",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.44
+    },
+    {
+      "id": "outcome1-9",
+      "site": "unit1",
+      "month": "2026-09",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.44
+    },
+    {
+      "id": "outcome1-10",
+      "site": "unit1",
+      "month": "2026-10",
+      "covered": 54,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.42
+    },
+    {
+      "id": "outcome2-5",
+      "site": "unit2",
+      "month": "2026-05",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 3.76
+    },
+    {
+      "id": "outcome2-6",
+      "site": "unit2",
+      "month": "2026-06",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 3.7
+    },
+    {
+      "id": "outcome2-7",
+      "site": "unit2",
+      "month": "2026-07",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 4.22
+    },
+    {
+      "id": "outcome2-8",
+      "site": "unit2",
+      "month": "2026-08",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 3.89
+    },
+    {
+      "id": "outcome2-9",
+      "site": "unit2",
+      "month": "2026-09",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 3.8
+    },
+    {
+      "id": "outcome2-10",
+      "site": "unit2",
+      "month": "2026-10",
+      "covered": 58,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": 3.93
+    },
+    {
+      "id": "outcome3-5",
+      "site": "unit3",
+      "month": "2026-05",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 4.49
+    },
+    {
+      "id": "outcome3-6",
+      "site": "unit3",
+      "month": "2026-06",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 3.75
+    },
+    {
+      "id": "outcome3-7",
+      "site": "unit3",
+      "month": "2026-07",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 3.89
+    },
+    {
+      "id": "outcome3-8",
+      "site": "unit3",
+      "month": "2026-08",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 4.34
+    },
+    {
+      "id": "outcome3-9",
+      "site": "unit3",
+      "month": "2026-09",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 3.6
+    },
+    {
+      "id": "outcome3-10",
+      "site": "unit3",
+      "month": "2026-10",
+      "covered": 62,
+      "unfinished": 3,
+      "complaints": 0,
+      "satisfaction": 4.45
+    },
+    {
+      "id": "outcome4-5",
+      "site": "unit4",
+      "month": "2026-05",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 4.0
+    },
+    {
+      "id": "outcome4-6",
+      "site": "unit4",
+      "month": "2026-06",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 3.71
+    },
+    {
+      "id": "outcome4-7",
+      "site": "unit4",
+      "month": "2026-07",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 3.59
+    },
+    {
+      "id": "outcome4-8",
+      "site": "unit4",
+      "month": "2026-08",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 3.51
+    },
+    {
+      "id": "outcome4-9",
+      "site": "unit4",
+      "month": "2026-09",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 3.97
+    },
+    {
+      "id": "outcome4-10",
+      "site": "unit4",
+      "month": "2026-10",
+      "covered": 66,
+      "unfinished": 0,
+      "complaints": 1,
+      "satisfaction": 4.33
+    },
+    {
+      "id": "outcome5-5",
+      "site": "unit5",
+      "month": "2026-05",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 4.25
+    },
+    {
+      "id": "outcome5-6",
+      "site": "unit5",
+      "month": "2026-06",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 4.49
+    },
+    {
+      "id": "outcome5-7",
+      "site": "unit5",
+      "month": "2026-07",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 3.84
+    },
+    {
+      "id": "outcome5-8",
+      "site": "unit5",
+      "month": "2026-08",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 3.55
+    },
+    {
+      "id": "outcome5-9",
+      "site": "unit5",
+      "month": "2026-09",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 4.21
+    },
+    {
+      "id": "outcome5-10",
+      "site": "unit5",
+      "month": "2026-10",
+      "covered": 70,
+      "unfinished": 1,
+      "complaints": 2,
+      "satisfaction": 3.67
+    },
+    {
+      "id": "outcome6-5",
+      "site": "unit6",
+      "month": "2026-05",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 3.69
+    },
+    {
+      "id": "outcome6-6",
+      "site": "unit6",
+      "month": "2026-06",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 4.12
+    },
+    {
+      "id": "outcome6-7",
+      "site": "unit6",
+      "month": "2026-07",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 3.71
+    },
+    {
+      "id": "outcome6-8",
+      "site": "unit6",
+      "month": "2026-08",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 3.92
+    },
+    {
+      "id": "outcome6-9",
+      "site": "unit6",
+      "month": "2026-09",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 4.1
+    },
+    {
+      "id": "outcome6-10",
+      "site": "unit6",
+      "month": "2026-10",
+      "covered": 74,
+      "unfinished": 2,
+      "complaints": 0,
+      "satisfaction": 3.65
+    },
+    {
+      "id": "outcome7-5",
+      "site": "unit7",
+      "month": "2026-05",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 4.44
+    },
+    {
+      "id": "outcome7-6",
+      "site": "unit7",
+      "month": "2026-06",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 3.57
+    },
+    {
+      "id": "outcome7-7",
+      "site": "unit7",
+      "month": "2026-07",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 3.56
+    },
+    {
+      "id": "outcome7-8",
+      "site": "unit7",
+      "month": "2026-08",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 3.96
+    },
+    {
+      "id": "outcome7-9",
+      "site": "unit7",
+      "month": "2026-09",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 3.95
+    },
+    {
+      "id": "outcome7-10",
+      "site": "unit7",
+      "month": "2026-10",
+      "covered": 78,
+      "unfinished": 3,
+      "complaints": 1,
+      "satisfaction": 4.34
+    },
+    {
+      "id": "outcome8-5",
+      "site": "unit8",
+      "month": "2026-05",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 3.94
+    },
+    {
+      "id": "outcome8-6",
+      "site": "unit8",
+      "month": "2026-06",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 4.21
+    },
+    {
+      "id": "outcome8-7",
+      "site": "unit8",
+      "month": "2026-07",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 3.88
+    },
+    {
+      "id": "outcome8-8",
+      "site": "unit8",
+      "month": "2026-08",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 3.74
+    },
+    {
+      "id": "outcome8-9",
+      "site": "unit8",
+      "month": "2026-09",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 3.91
+    },
+    {
+      "id": "outcome8-10",
+      "site": "unit8",
+      "month": "2026-10",
+      "covered": 82,
+      "unfinished": 0,
+      "complaints": 2,
+      "satisfaction": 3.58
+    },
+    {
+      "id": "outcome9-5",
+      "site": "unit9",
+      "month": "2026-05",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 3.56
+    },
+    {
+      "id": "outcome9-6",
+      "site": "unit9",
+      "month": "2026-06",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 3.67
+    },
+    {
+      "id": "outcome9-7",
+      "site": "unit9",
+      "month": "2026-07",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 3.73
+    },
+    {
+      "id": "outcome9-8",
+      "site": "unit9",
+      "month": "2026-08",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 3.8
+    },
+    {
+      "id": "outcome9-9",
+      "site": "unit9",
+      "month": "2026-09",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 4.01
+    },
+    {
+      "id": "outcome9-10",
+      "site": "unit9",
+      "month": "2026-10",
+      "covered": 86,
+      "unfinished": 1,
+      "complaints": 0,
+      "satisfaction": 4.09
+    },
+    {
+      "id": "outcome10-5",
+      "site": "unit10",
+      "month": "2026-05",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 3.64
+    },
+    {
+      "id": "outcome10-6",
+      "site": "unit10",
+      "month": "2026-06",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 4.23
+    },
+    {
+      "id": "outcome10-7",
+      "site": "unit10",
+      "month": "2026-07",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 4.12
+    },
+    {
+      "id": "outcome10-8",
+      "site": "unit10",
+      "month": "2026-08",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 4.23
+    },
+    {
+      "id": "outcome10-9",
+      "site": "unit10",
+      "month": "2026-09",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 3.57
+    },
+    {
+      "id": "outcome10-10",
+      "site": "unit10",
+      "month": "2026-10",
+      "covered": 90,
+      "unfinished": 2,
+      "complaints": 1,
+      "satisfaction": 3.58
+    },
+    {
+      "id": "outcome11-5",
+      "site": "unit11",
+      "month": "2026-05",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 4.29
+    },
+    {
+      "id": "outcome11-6",
+      "site": "unit11",
+      "month": "2026-06",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 3.95
+    },
+    {
+      "id": "outcome11-7",
+      "site": "unit11",
+      "month": "2026-07",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 3.91
+    },
+    {
+      "id": "outcome11-8",
+      "site": "unit11",
+      "month": "2026-08",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 3.87
+    },
+    {
+      "id": "outcome11-9",
+      "site": "unit11",
+      "month": "2026-09",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 4.33
+    },
+    {
+      "id": "outcome11-10",
+      "site": "unit11",
+      "month": "2026-10",
+      "covered": 94,
+      "unfinished": 3,
+      "complaints": 2,
+      "satisfaction": 3.57
+    },
+    {
+      "id": "outcome12-5",
+      "site": "unit12",
+      "month": "2026-05",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.68
+    },
+    {
+      "id": "outcome12-6",
+      "site": "unit12",
+      "month": "2026-06",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.98
+    },
+    {
+      "id": "outcome12-7",
+      "site": "unit12",
+      "month": "2026-07",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 4.38
+    },
+    {
+      "id": "outcome12-8",
+      "site": "unit12",
+      "month": "2026-08",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.54
+    },
+    {
+      "id": "outcome12-9",
+      "site": "unit12",
+      "month": "2026-09",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 4.17
+    },
+    {
+      "id": "outcome12-10",
+      "site": "unit12",
+      "month": "2026-10",
+      "covered": 98,
+      "unfinished": 0,
+      "complaints": 0,
+      "satisfaction": 3.73
+    },
+    {
+      "id": "outcome13-5",
+      "site": "unit13",
+      "month": "2026-05",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.65
+    },
+    {
+      "id": "outcome13-6",
+      "site": "unit13",
+      "month": "2026-06",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.67
+    },
+    {
+      "id": "outcome13-7",
+      "site": "unit13",
+      "month": "2026-07",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.2
+    },
+    {
+      "id": "outcome13-8",
+      "site": "unit13",
+      "month": "2026-08",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.7
+    },
+    {
+      "id": "outcome13-9",
+      "site": "unit13",
+      "month": "2026-09",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 4.23
+    },
+    {
+      "id": "outcome13-10",
+      "site": "unit13",
+      "month": "2026-10",
+      "covered": 102,
+      "unfinished": 1,
+      "complaints": 1,
+      "satisfaction": 3.7
+    },
+    {
+      "id": "outcome14-5",
+      "site": "unit14",
+      "month": "2026-05",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    },
+    {
+      "id": "outcome14-6",
+      "site": "unit14",
+      "month": "2026-06",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    },
+    {
+      "id": "outcome14-7",
+      "site": "unit14",
+      "month": "2026-07",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    },
+    {
+      "id": "outcome14-8",
+      "site": "unit14",
+      "month": "2026-08",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    },
+    {
+      "id": "outcome14-9",
+      "site": "unit14",
+      "month": "2026-09",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    },
+    {
+      "id": "outcome14-10",
+      "site": "unit14",
+      "month": "2026-10",
+      "covered": 106,
+      "unfinished": 2,
+      "complaints": 2,
+      "satisfaction": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "project0",
+      "site": "unit0",
+      "fixed_cents": 500000,
+      "resource_need": {
+        "specialist_hours": 10,
+        "care_hours": 50
+      },
+      "coverage_gain": 5,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project1",
+      "site": "unit1",
+      "fixed_cents": 520000,
+      "resource_need": {
+        "specialist_hours": 11,
+        "care_hours": 50
+      },
+      "coverage_gain": 6,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project2",
+      "site": "unit2",
+      "fixed_cents": 540000,
+      "resource_need": {
+        "specialist_hours": 12,
+        "care_hours": 50
+      },
+      "coverage_gain": 7,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project3",
+      "site": "unit3",
+      "fixed_cents": 560000,
+      "resource_need": {
+        "specialist_hours": 13,
+        "care_hours": 50
+      },
+      "coverage_gain": 8,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project4",
+      "site": "unit4",
+      "fixed_cents": 580000,
+      "resource_need": {
+        "specialist_hours": 14,
+        "care_hours": 50
+      },
+      "coverage_gain": 5,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project5",
+      "site": "unit5",
+      "fixed_cents": 600000,
+      "resource_need": {
+        "specialist_hours": 15,
+        "care_hours": 50
+      },
+      "coverage_gain": 6,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project6",
+      "site": "unit6",
+      "fixed_cents": 620000,
+      "resource_need": {
+        "specialist_hours": 16,
+        "care_hours": 50
+      },
+      "coverage_gain": 7,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project7",
+      "site": "unit7",
+      "fixed_cents": 640000,
+      "resource_need": {
+        "specialist_hours": 17,
+        "care_hours": 50
+      },
+      "coverage_gain": 8,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project8",
+      "site": "unit8",
+      "fixed_cents": 660000,
+      "resource_need": {
+        "specialist_hours": 18,
+        "care_hours": 50
+      },
+      "coverage_gain": 5,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project9",
+      "site": "unit9",
+      "fixed_cents": 680000,
+      "resource_need": {
+        "specialist_hours": 19,
+        "care_hours": 50
+      },
+      "coverage_gain": 6,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project10",
+      "site": "unit10",
+      "fixed_cents": 700000,
+      "resource_need": {
+        "specialist_hours": 20,
+        "care_hours": 50
+      },
+      "coverage_gain": 7,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project11",
+      "site": "unit11",
+      "fixed_cents": 720000,
+      "resource_need": {
+        "specialist_hours": 21,
+        "care_hours": 50
+      },
+      "coverage_gain": 8,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project12",
+      "site": "unit12",
+      "fixed_cents": 740000,
+      "resource_need": {
+        "specialist_hours": 22,
+        "care_hours": 50
+      },
+      "coverage_gain": 5,
+      "requires_skill": "bathing"
+    },
+    {
+      "id": "project13",
+      "site": "unit13",
+      "fixed_cents": 760000,
+      "resource_need": {
+        "specialist_hours": 23,
+        "care_hours": 50
+      },
+      "coverage_gain": 6,
+      "requires_skill": "basic"
+    },
+    {
+      "id": "project14",
+      "site": "unit14",
+      "fixed_cents": 780000,
+      "resource_need": {
+        "specialist_hours": 24,
+        "care_hours": 50
+      },
+      "coverage_gain": 7,
+      "requires_skill": "bathing"
+    }
+  ],
+  "shared": [
+    {
+      "id": "shared5",
+      "month": "2026-05",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    },
+    {
+      "id": "shared6",
+      "month": "2026-06",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    },
+    {
+      "id": "shared7",
+      "month": "2026-07",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    },
+    {
+      "id": "shared8",
+      "month": "2026-08",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    },
+    {
+      "id": "shared9",
+      "month": "2026-09",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    },
+    {
+      "id": "shared10",
+      "month": "2026-10",
+      "resource": "specialist_hours",
+      "amount": 300,
+      "shares": {
+        "unit0": 0.06666666666666667,
+        "unit1": 0.06666666666666667,
+        "unit2": 0.06666666666666667,
+        "unit3": 0.06666666666666667,
+        "unit4": 0.06666666666666667,
+        "unit5": 0.06666666666666667,
+        "unit6": 0.06666666666666667,
+        "unit7": 0.06666666666666667,
+        "unit8": 0.06666666666666667,
+        "unit9": 0.06666666666666667,
+        "unit10": 0.06666666666666667,
+        "unit11": 0.06666666666666667,
+        "unit12": 0.06666666666666667,
+        "unit13": 0.06666666666666667,
+        "unit14": 0.06666666666666667
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "2026-11",
+    "specialist_hours": 50,
+    "care_hours": 200,
+    "available_skills": [
+      "basic"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "o1",
+    "site": "east",
+    "month": "2026-10",
+    "covered": 100,
+    "unfinished": 5,
+    "complaints": 2,
+    "satisfaction": 4.3
+  },
+  {
+    "id": "o2",
+    "site": "west",
+    "month": "2026-10",
+    "covered": 90,
+    "unfinished": 2,
+    "complaints": 1,
+    "satisfaction": 4.5
+  },
+  {
+    "id": "o3",
+    "site": "day",
+    "month": "2026-10",
+    "covered": 120,
+    "unfinished": 0,
+    "complaints": 0,
+    "satisfaction": null
+  }
+]
