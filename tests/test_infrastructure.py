@@ -95,3 +95,46 @@ class HttpTests(unittest.TestCase):
             urllib.request.urlopen(request)
         self.assertEqual(caught.exception.code, 400)
         self.assertEqual(self.application.demo(), before)
+
+    def test_frontier_endpoint_returns_real_peers_and_exclusions(self):
+        with urllib.request.urlopen(self.base + '/api/frontier?site=east') as response:
+            payload = json.load(response)
+        self.assertEqual(payload['members'], ['east', 'west'])
+        self.assertEqual(payload['excluded_outside_scope'][0]['site'], 'day')
+        self.assertTrue(payload['results'])
+
+    def test_reduced_caliber_includes_missing_satisfaction_site(self):
+        with urllib.request.urlopen(self.base + '/api/frontier?site=day&caliber=reduced') as response:
+            payload = json.load(response)
+        self.assertEqual(payload['members'], ['day'])
+        self.assertEqual(payload['caliber'], 'reduced_without_satisfaction')
+
+    def test_attainable_endpoint_reports_skill_gate(self):
+        with urllib.request.urlopen(self.base + '/api/attainable?site=east&month=2026-11') as response:
+            payload = json.load(response)
+        east = next(item for item in payload['projects'] if item['id'] == 'unit_east')
+        self.assertFalse(east['skill_feasible'])
+
+    def test_freeze_and_review_plan_over_http(self):
+        self.store.put('availability', {
+            'id': '2026-10', 'specialist_hours': 60, 'care_hours': 200,
+            'available_skills': ['basic', 'bathing']})
+        body = json.dumps({'id': 'http-plan', 'site': 'east', 'month': '2026-10',
+                           'projects': ['unit_east']}).encode('utf-8')
+        request = urllib.request.Request(self.base + '/api/plan', data=body,
+                                         headers={'Content-Type': 'application/json'})
+        with urllib.request.urlopen(request) as response:
+            self.assertEqual(response.status, 200)
+            frozen = json.load(response)
+        self.assertTrue(frozen['frozen_panel_hash'])
+        with urllib.request.urlopen(self.base + '/api/plan-review?id=http-plan') as response:
+            review = json.load(response)
+        self.assertTrue(review['snapshot_integrity']['frozen_hash_matches_snapshot'])
+
+    def test_unknown_site_is_404_and_bad_window_is_400(self):
+        with self.assertRaises(urllib.error.HTTPError) as caught:
+            urllib.request.urlopen(self.base + '/api/frontier?site=missing')
+        self.assertEqual(caught.exception.code, 404)
+        with self.assertRaises(urllib.error.HTTPError) as caught:
+            urllib.request.urlopen(self.base + '/api/frontier?site=east&months=2030-01')
+        self.assertEqual(caught.exception.code, 400)

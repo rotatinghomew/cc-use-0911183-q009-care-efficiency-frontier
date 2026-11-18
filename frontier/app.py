@@ -1,9 +1,17 @@
 from pathlib import Path
 import json
 
-from .resources import *
-from .outcomes import *
-from .improvements import *
+from .resources import resource_totals, shared_allocations
+from .outcomes import observed_outcomes, comparable_sites
+from .improvements import (
+    feasible_combinations,
+    freeze_plan,
+    quote_projects,
+    review_plan,
+    save_project,
+)
+from .efficiency import group_frontier
+from .stability import correction_sensitivity, leave_one_out
 
 
 class Application:
@@ -28,8 +36,36 @@ class Application:
             return self.demo()
         if method == 'GET' and route == 'peers':
             return comparable_sites(self.store, payload['site'])
+        if method == 'GET' and route == 'frontier':
+            return group_frontier(
+                self.store,
+                payload['site'],
+                months=payload.get('months'),
+                include_satisfaction=payload.get('caliber', 'full') != 'reduced',
+            )
+        if method == 'GET' and route == 'stability':
+            return leave_one_out(
+                self.store,
+                payload['site'],
+                months=payload.get('months'),
+                include_satisfaction=payload.get('caliber', 'full') != 'reduced',
+            )
+        if method == 'POST' and route == 'correction-sensitivity':
+            return correction_sensitivity(
+                self.store,
+                payload['site'],
+                payload['corrections'],
+                months=payload.get('months'),
+                include_satisfaction=payload.get('include_satisfaction', True),
+            )
+        if method == 'GET' and route == 'attainable':
+            return feasible_combinations(self.store, payload['site'], payload['month'])
         if method == 'POST' and route == 'project':
             return {'revision': save_project(self.store, payload)}
         if method == 'POST' and route == 'project-quote':
             return quote_projects(self.store, payload['projects'])
+        if method == 'POST' and route == 'plan':
+            return freeze_plan(self.store, payload)
+        if method == 'GET' and route == 'plan-review':
+            return review_plan(self.store, payload['id'], actual=payload.get('actual'))
         raise KeyError('接口不存在')

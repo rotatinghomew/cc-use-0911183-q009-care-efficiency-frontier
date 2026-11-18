@@ -95,11 +95,15 @@ def handler_for(application):
 
 def main():
     parser = argparse.ArgumentParser(description='本地业务服务与数据核对')
-    parser.add_argument('command', choices=['demo', 'check', 'serve', 'load'])
+    parser.add_argument('command', choices=['demo', 'check', 'serve', 'load', 'frontier', 'stability', 'attainable'])
     parser.add_argument('--database')
     parser.add_argument('--input')
     parser.add_argument('--port', type=int, default=8765)
     parser.add_argument('--host', default='127.0.0.1')
+    parser.add_argument('--site')
+    parser.add_argument('--month')
+    parser.add_argument('--months')
+    parser.add_argument('--caliber', choices=['full', 'reduced'], default='full')
     args = parser.parse_args()
     with tempfile.TemporaryDirectory() as directory:
         store = Store(args.database or str(Path(directory) / 'business.sqlite3'))
@@ -112,6 +116,21 @@ def main():
                 print(json_bytes(load_dataset(store, args.input)).decode('utf-8'))
             elif args.command == 'serve':
                 HTTPServer((args.host, args.port), handler_for(application)).serve_forever()
+            elif args.command == 'frontier':
+                if not args.site:
+                    parser.error('frontier 需要 --site')
+                print(json_bytes(application.call('GET', 'frontier', {
+                    'site': args.site, 'months': args.months, 'caliber': args.caliber})).decode('utf-8'))
+            elif args.command == 'stability':
+                if not args.site:
+                    parser.error('stability 需要 --site')
+                print(json_bytes(application.call('GET', 'stability', {
+                    'site': args.site, 'months': args.months, 'caliber': args.caliber})).decode('utf-8'))
+            elif args.command == 'attainable':
+                if not args.site or not args.month:
+                    parser.error('attainable 需要 --site 和 --month')
+                print(json_bytes(application.call('GET', 'attainable', {
+                    'site': args.site, 'month': args.month})).decode('utf-8'))
             else:
                 value = application.demo() if args.command == 'demo' else application.check()
                 print(json_bytes(value).decode('utf-8'))
